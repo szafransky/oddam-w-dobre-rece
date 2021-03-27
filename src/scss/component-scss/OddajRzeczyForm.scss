@@ -1,0 +1,22 @@
+.oddaj-rzeczy-form-container {
+    height: 1003px;
+
+    display: flex;
+
+    // .img {
+    //     border: 1px solid red;
+    //     flex: 1;
+    //     background-image: url('../../assets/Background-Form.jpg');
+    //     background-position: center;
+    //     background-size: cover;
+    // }
+
+    .form-components {
+        background-image: url('../../assets/Background-Form.jpg');
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex: 1;
+        
+    }
+}

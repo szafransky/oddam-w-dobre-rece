@@ -1,0 +1,122 @@
+@import '../settings/fonts';
+
+.header-container {
+    height: 120px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 900px;
+    
+    
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-right: 100px;
+        width: 700px;
+
+        .list1 {
+            // width: 350px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: $font-base;
+            font-weight: lighter;
+            font-size: 13px;
+
+            .user {
+               font-weight: normal;
+               margin-right: 20px;
+            }
+
+
+
+             .login {
+                 cursor: pointer;
+                 font-family: $font-base;
+                font-weight: lighter;
+                font-size: 13px;
+                padding: 5px 5px;
+                margin-right: 20px;
+
+             }
+
+             button {
+               cursor: pointer;
+              
+               padding: 5px 5px;
+                padding: 5px 5px;
+                background: #fff;
+                font-family: $font-base;
+                font-weight: lighter;
+                font-size: 15px;
+                border: none;
+                
+             }
+
+             .oddaj-rzeczy {
+               cursor: pointer;
+               border: 0.75px solid #FAD648;
+               padding: 5px 5px;
+               margin-right: 20px;
+               
+               font-family: $font-base;
+               font-weight: lighter;
+               font-size: 15px;
+               
+             }
+
+             .register {
+                cursor: pointer;
+                border: 0.75px solid #FAD648;
+                padding: 5px 5px;
+                font-family: $font-base;
+                font-weight: lighter;
+                font-size: 13px;
+                
+             }
+
+            
+        }
+
+        .list2 {
+            width: 650px;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 20px;
+            font-family: $font-base;
+                font-weight: 400;
+                
+
+            .start {
+                cursor: pointer;
+                font-size: 17px;
+             }
+
+             .o-co-chodzi{
+                cursor: pointer;
+                font-size: 17px;
+             }
+
+             .o-nas {
+                cursor: pointer;
+                font-size: 17px;
+             }
+
+             .fundacja-i-org {
+                cursor: pointer;
+                font-size: 17px;
+             }
+
+             .kontakt {
+                cursor: pointer;
+                font-size: 17px;
+             }
+
+        }
+    }
+
+}

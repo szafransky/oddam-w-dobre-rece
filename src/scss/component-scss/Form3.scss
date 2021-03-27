@@ -1,0 +1,118 @@
+@import '../settings/fonts';
+
+.step-3-container {
+    padding: 20px 0 20px 100px;
+    font-family: $font-base;
+    font-weight: lighter;
+    width: 640px;
+    height: 100%;
+    .steps {
+        margin-bottom: 60px;
+        font-size: 24px;
+    }
+
+    h1 {
+        margin-bottom: 20px;
+        font-size: 36px;
+        font-weight: 600;
+    }
+
+    h3 {
+        font-size: 24px;
+        font-weight: 600;
+        margin: 40px 0 15px 0;
+    }
+
+    select {
+        cursor: pointer;
+        outline: 0;
+        font-family: $font-base;
+        font-weight: lighter;
+        font-size: 24px;
+        width: 300px;
+        padding: 5px 8px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;       /* Remove default arrow */
+        background-image: url("../../assets/Icon-Arrow-Down.svg");   /* Add custom arrow */
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 30px 30px;
+        background-color: transparent;
+
+        option {
+            background-color: transparent;
+        }
+        
+     }
+
+     .block-container {
+        display: flex;
+        flex-wrap: wrap;
+        // justify-content: space-around;
+      
+        .block {
+            font-size: 24px;
+            border: 1px solid #3C3C3C;
+            padding: 5px 10px;
+            margin-bottom: 20px;
+            margin-right: 10px;
+            cursor: pointer;
+         }
+
+         
+
+         .block:hover {
+             background: #FAD648;
+         }
+     }
+
+     .wrapper {
+         margin-top: 20px;
+         display: flex;
+         flex-direction: column;
+
+         label {
+            font-family: $font-base;
+            font-weight: 600;
+            font-size: 23px;
+            margin-bottom: 15px;
+         }
+
+         input {
+             background: transparent;
+             border: 1px solid #3C3C3C;
+             padding: 8px 5px;
+             outline: none;
+             font-family: $font-base;
+             font-weight: lighter;
+             font-size: 20px;
+         }
+
+        
+         
+     }
+
+     button {
+        width: 180px;
+        height: 80px;
+        font-family: $font-base;
+        font-weight: lighter;
+        font-size: 20px;
+        border: none;
+        border: 1px solid #3C3C3C;
+        background: none;
+        margin-top: 202px;
+    }
+
+    button:active { 
+        transform: scale(1.1,1.1);
+        background: rgb(209, 209, 209);
+        outline: none;
+    }
+
+    button:hover {
+        background: rgb(209, 209, 209);
+    }
+
+}

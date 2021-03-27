@@ -1,0 +1,118 @@
+@import '../settings/fonts';
+
+.who-we-help-container {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 800px;
+
+        h1 {
+            padding: 50px;
+            font-family: $font-base;
+            font-size: 38px;
+            font-weight: lighter;
+        }
+
+       
+        .button-container {
+            display: flex;
+            width: 50%;
+            justify-content: space-around ;
+            .button {
+                // padding: 20px 40px 20px 40px;
+                width: 208px;
+                height: 80px;
+                
+                font-family: $font-base;
+                font-size: 24px;
+                font-weight: lighter;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+            }
+
+
+            .button:focus {
+                border: 1px solid grey;
+                outline: none;
+            }
+
+            
+
+       
+
+            
+        }
+
+        .description {
+            padding: 40px;
+            font-family: $font-base;
+            font-size: 22px;
+            font-weight: lighter;
+            width: 40%;
+        }
+
+        .list {
+            width: 75%;
+            margin: 0 auto;
+            .firebase-object-container {
+               
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid #707070;
+                margin-bottom: 30px;
+                height: 80px;
+
+                .nazwa-misja-container {
+                    display: flex;
+                    
+                    flex-direction: column;
+                    justify-content: space-around;
+                    width: 40%;
+                    height: 50px;
+
+                    .nazwa {
+                        font-family: $font-base;
+                        font-size: 24px;
+                        font-weight: lighter;
+                        text-align: left;
+                    }
+
+                    .misja {
+                        font-family: $font-base;
+                        font-size: 18px;
+                        font-weight: lighter;
+                        text-align: left;
+                    }
+                }
+
+                .object-array-wrapper {
+                    display: flex;
+                    align-items: center;
+                    height: 70%;
+                  
+                }
+
+                .object-array {
+                    display: flex;
+                 
+                   
+
+                    p {
+                        font-family: $font-base;
+                        font-size: 15px;
+                        font-weight: lighter;
+                        margin-right: 7px;
+                        
+                    }
+                }
+            }
+
+            
+        }
+    }
+}

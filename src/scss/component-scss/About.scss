@@ -1,0 +1,63 @@
+@import '../settings/fonts';
+
+.about-us-container {
+    margin-top: 40px;
+    .wrapper {
+        height: 800px;
+        display: flex;
+        font-family: $font-base;
+        font-weight: lighter;
+        
+
+        .image {
+            flex: 1;
+            background-image: url('../../assets/People.jpg');
+            background-repeat: no-repeat;
+            background-size: initial;
+            
+        }
+        .signature-container {
+        width: 80%;
+        display: flex;
+        justify-content: flex-end;
+            .signature {
+                background-image: url(../../assets/Signature.svg);
+                height: 150px;
+                width: 210px;
+                background-repeat: no-repeat;
+            }
+        }
+
+        
+
+        .description {
+            // width: 60%;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: #F0F1F1;
+           
+            h3 {
+                font-size: 38px;
+                font-weight: 400;
+            }
+
+            p { 
+                font-size: 30px;
+                width: 75%;
+            }
+
+            .description-image {
+                background-image: url('../../assets/Decoration.svg');
+                background-repeat: no-repeat;
+                height: 33px;
+                width: 250px;
+                margin: 20px 0;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,39 @@
+@import '../settings/fonts';
+
+.step-6-container {
+    min-height: 700px;
+    padding: 20px 0 20px 100px;
+    font-family: $font-base;
+    font-weight: lighter;
+    // width: 860px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+    height: 100%;
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        align-items: center;
+        width: 40%;
+        h1 {
+            font-weight: lighter;
+            font-size: 40px;
+            // width: 80%;
+            text-align: center;
+        }
+    
+        .img {
+            background-image: url(../../assets/Decoration.svg);
+            background-repeat: no-repeat;
+            height: 33px;
+            width: 250px;
+            margin-top: 20px;
+        }
+    }
+
+   
+
+}

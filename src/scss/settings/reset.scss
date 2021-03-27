@@ -1,0 +1,17 @@
+@import './fonts';
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+
+.body {
+    font-family: var(--font-base);
+}
+
+.p {
+    font-family: var(--font-base);
+    font-size: large;
+}

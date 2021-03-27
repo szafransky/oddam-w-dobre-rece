@@ -1,0 +1,124 @@
+@import '../settings/fonts';
+
+.contact-container {
+    display: flex;
+    height: 1000px;
+
+    .img {
+        flex: 2;
+        background-image: url('../../assets/Background-Contact-Form.jpg');
+        background-repeat: no-repeat;
+        background-size: inherit;
+        background-position: left;
+        background-position-y: 10px;
+        
+        // background-size: unset;
+    }
+
+    .img::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.863);
+        display: inline-block;
+    }
+
+    
+
+    .contact-us-container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        .contact-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        h2 {
+            font-family: $font-base;
+            font-weight: lighter;
+            font-size: 38px;
+        }
+
+        .title-img {
+            background-image: url(../../assets/Decoration.svg);
+            background-repeat: no-repeat;
+            height: 33px;
+            width: 250px;
+            margin-top: 20px;
+        }
+
+        .form-wrapper {
+            // width: 100%;
+            .name-email-container {
+                margin-top: 100px;
+                label {
+                    font-family: $font-base;
+                    font-weight: normal;
+                }
+
+                input {
+                    border-top-style: hidden;
+                    border-right-style: hidden;
+                    border-left-style: hidden;
+                    border-bottom-style: groove;
+                    padding-top: 10px;
+                    width: 200px;
+                    border-bottom: 1px solid grey;
+                    box-shadow: 0 0 0 30px #ffffff inset;
+                    font-family: $font-base;
+                    font-weight: lighter;
+                    outline: none;
+                    // background-color: #eee !important;
+                  }
+
+                  
+                display: flex;
+                .name {
+                    display: flex;
+                    flex-direction: column;
+                    margin-right: 15px;
+                }
+
+                .email {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                
+            }
+            .textarea-container {
+                display: flex;
+                flex-direction: column;
+
+                label {
+                    margin-top: 30px;
+                    font-family: $font-base;
+                    margin-bottom: 10px;
+                    font-weight: normal;
+                }
+
+                textarea {
+                    border-top-style: hidden;
+                    border-right-style: hidden;
+                    border-left-style: hidden;
+                    border-bottom-style: groove;
+                    // height: 100px;
+                    padding-bottom: 2px;
+                    width: 430px;
+                    border-bottom: 1px solid grey;
+                    box-shadow: 0 0 0 30px #ffffff inset;
+                    font-family: $font-base;
+                    font-weight: lighter;
+                    outline: none;
+                    resize: none;
+                    // background-color: #eee !important;
+                  }
+            }
+        }
+    }
+}

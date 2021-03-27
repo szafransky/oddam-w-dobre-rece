@@ -1,0 +1,128 @@
+@import '../settings/fonts';
+
+.step-4-container {
+    padding: 20px 0 20px 100px;
+    font-family: $font-base;
+    font-weight: lighter;
+    width: 640px;
+
+    h1 {
+        margin-bottom: 40px;
+        font-size: 36px;
+        font-weight: 600;
+        width: 600px;
+    }
+    
+    .steps {
+        margin-bottom: 60px;
+        font-size: 24px;
+    }
+
+    .wrapper {
+      
+        display: flex;
+        .adres {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-right: 100px;
+
+            h2 {
+                font-size: 22px;
+                font-weight: 600;
+                padding-bottom: 30px;
+            }
+
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 20px;
+            }
+
+            label {
+                display: inline-block;  
+                line-height: 25px;
+                width: 115px;
+                font-family: $font-base;
+                font-weight: lighter;
+                font-size: 24px;
+            }
+
+            input {
+                width: 300px;
+                padding: 8px 8px;
+                background: transparent;
+                border: 1px solid #3C3C3C;
+            }
+        }
+
+        .termin {
+            display: flex;
+            flex-direction: column;
+            
+            h2 {
+                font-size: 22px;
+                font-weight: 600;
+                padding-bottom: 30px;
+            }
+           
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 20px;
+            }
+
+            .uwagi {
+                justify-content: flex-start;
+                
+                textarea {
+                    resize: none;
+                    width: 74%;
+                    background: transparent;
+                    border: 1px solid #3C3C3C;
+                }
+            }
+            label {
+                display: inline-block;  
+                line-height: 25px;
+                width: 115px;
+                font-family: $font-base;
+                font-weight: lighter;
+                font-size: 24px;
+            }
+
+            input {
+                width: 300px;
+                padding: 8px 8px;
+                background: transparent;
+                border: 1px solid #3C3C3C;
+            }
+        }
+    }
+    button {
+        outline: none;
+        width: 180px;
+        height: 80px;
+        font-family: $font-base;
+        font-weight: lighter;
+        font-size: 20px;
+        border: none;
+        border: 1px solid #3C3C3C;
+        background: none;
+        margin-top: 230px;
+        cursor: pointer;
+    }
+
+    button:active { 
+        transform: scale(1.1,1.1);
+        background: rgb(209, 209, 209);
+    }
+
+    button:hover {
+        background: rgb(209, 209, 209);
+    }
+
+    
+}

@@ -1,0 +1,90 @@
+@import '../settings/fonts';
+
+.step-1-container {
+    padding: 20px 0 20px 150px;
+    font-family: $font-base;
+    font-weight: lighter;
+    width: 640px;
+    height: 100%;
+
+    form {
+        position: relative;
+        height: 100%;
+    }
+    
+    .steps {
+        margin-bottom: 60px;
+        font-size: 24px;
+    }
+
+    
+
+    .checkbox-container {
+
+       
+        h1 {
+            margin-bottom: 40px;
+            font-size: 36px;
+            font-weight: 600;
+            
+        }
+
+        label {
+            font-size: 24px;
+            display: block;
+            position: relative;
+            padding-left: 50px;
+        }
+
+        input {
+            appearance: none;
+            
+        }
+
+        .checkbox {
+            margin-bottom: 20px;
+        }
+
+        .checkmark{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 30px;
+            width: 30px;
+            border: 1px solid #3C3C3C;
+        }
+
+        label:hover input ~ .checkmark {
+            background-color: #FAD648;
+          }
+
+        label input:checked ~ .checkmark {
+            background-color: #FAD648;
+        }
+
+        button {
+            width: 180px;
+            height: 80px;
+            font-family: $font-base;
+            font-weight: lighter;
+            font-size: 20px;
+            border: none;
+            border: 1px solid #3C3C3C;
+            background: none;
+            margin-top: 200px;
+            position: absolute;
+            bottom: 0;
+        }
+
+        button:active { 
+            transform: scale(1.1,1.1);
+            background: rgb(209, 209, 209);
+            outline: none;
+        }
+
+        button:hover {
+            background: rgb(209, 209, 209);
+        }
+       
+    }
+}

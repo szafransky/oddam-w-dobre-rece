@@ -1,0 +1,108 @@
+@import '../settings/fonts';
+
+.podsumowanie {
+
+    padding: 20px 0 20px 100px;
+    font-family: $font-base;
+    font-weight: lighter;
+    width: 640px;
+    height: 100%;
+
+    h1 {
+        margin-bottom: 40px;
+        font-size: 36px;
+        font-weight: 600;
+        width: 600px;
+    }
+
+    h2 {
+        font-size: 24px;
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    
+
+        p {
+            font-size: 22px;
+            font-weight: lighter;
+            font-style: normal;
+           
+        }
+       
+    
+    .oddajesz-container {
+
+        position: relative;
+        height: 100%;
+        .lok-termin-container {
+
+
+            display: flex;
+            margin-top: 40px;
+
+            h1 {
+                font-weight: normal;
+                font-size: 22px;
+            }
+            
+            label {
+                margin-right: 30px;
+                font-size: 22px;
+                font-weight: lighter;
+                font-style: normal;
+                
+            }
+           .container {
+               margin-bottom: 15px;
+               display: flex;
+               align-items: flex-start;
+           
+             
+                  label {
+                      width: 200px;
+                  }
+
+
+               
+           }
+
+           .uwagi {
+          
+               p {
+                   width: 300px;
+                   word-break: break-all;
+                  
+               }
+           }
+        }
+    }
+
+    .button-container {
+        position: absolute;
+        bottom: 0;
+    }
+    button {
+        outline: none;
+        width: 180px;
+        height: 80px;
+        font-family: $font-base;
+        font-weight: lighter;
+        font-size: 20px;
+        border: none;
+        border: 1px solid #3C3C3C;
+        background: none;
+        // margin-top: 293px;
+        cursor: pointer;
+        // position: absolute;
+    }
+
+    button:active { 
+        transform: scale(1.1,1.1);
+        background: rgb(209, 209, 209);
+    }
+
+    button:hover {
+        background: rgb(209, 209, 209);
+    }
+}

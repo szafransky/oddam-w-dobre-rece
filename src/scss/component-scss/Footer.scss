@@ -1,0 +1,19 @@
+@import '../settings/fonts';
+
+.footer-container {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    // height: 40px;
+    width: 100%;
+    justify-content: center;
+    
+    p {
+        font-family: $font-base;
+        font-weight: lighter;
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+        color: black;
+    }
+}
